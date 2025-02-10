@@ -1,13 +1,24 @@
-/*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+h1 {
+	font-size: 3em;
+	color: rgb(145, 161, 155);
+	margin-bottom: 20px;
+	font-weight: lighter;
+}
 
-/*////////// Global Styles //////////*/
+h2 {
+	font-size: 1.8em;
+	color: rgb(103, 117, 111);
+	margin-top: 40px;
+    margin-bottom: 10px;
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	margin: 0;
+    padding: 0;
 }
 
 .wrapper {
@@ -15,6 +26,32 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	
 }
 
-/* Write all remaining styles here */
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: inline;
+	margin: 0 auto; 
+	border: 3px solid #ccc; 
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+	img {
+		border-color: darkgray;
+	}
+}
+
+p:last-of-type {
+	text-align: end;
+	font-size: 0.9em;
+	color: #777; /* Light gray for footer */
+	margin-top: 40px;
+  }
